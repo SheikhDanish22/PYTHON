@@ -87,8 +87,6 @@ clear()-only object remove but list dont remove del() collection
 # print(l1)
 
 
-# l1=["rahul"]
-
 # l1.extend(["a"])
 # print(l1)
 # l1.sort()
@@ -132,9 +130,52 @@ print(l1)
 '''
 
 
-'''reverse'''
+'''reverse
 l1=[10,20,50,30,40]
 l1.reverse()
 print(l1)
+'''
 
 
+'''clear()
+l1=[10,20,50,30,40]
+l1.clear()
+print(l1)
+'''
+
+
+'''pop()
+l1=[10,20,50,30,40]
+l1.pop()
+print(l1)
+'''
+
+'''insert()
+l1=[10,20,40,50]
+l1.insert(2,30)
+print(l1)
+
+
+l1=[10,20,40,50]
+l1.insert(2,"Rammez")
+print(l1)
+'''
+
+
+'''copy()
+l1=[1,2,3,4,5]
+l2=l1.copy()
+print(l2)
+'''
+
+
+'''count()
+l1=[10,20,20,30,40]
+x=l1.count(20)
+print(x)
+'''
+
+'''index'''
+l1=[10,20,30,40,50,60,70,80]
+x=l1.index(40)
+print(x)
