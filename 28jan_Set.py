@@ -3,7 +3,7 @@
 # print(type(my_set))
 
 
-s1={'Neeraj','Raj','Rahul'}
+# s1={'Neeraj','Raj','Rahul'}
 # s2={10,20,30,40,50}
 # print(max(s1),min(s1))
 # print(max(s2),min(s2),sum(s2))
@@ -33,8 +33,8 @@ s1={'Neeraj','Raj','Rahul'}
 
 
 
-a={1,2,3,4,5,6}
-b={3,6,7,8}
+# a={1,2,3,4,5,6}
+# b={3,6,7,8}
 # print(a.union(b))
 
 
@@ -50,6 +50,28 @@ print(a)
 
 a.difference_update(b)
 print(a)'''
+
+
+
+
+# my_set={'danish',10,20,30}
+
+# x={50,60}
+# my_set.update(x)
+# print(my_set)
+# my_set.pop()
+# print(my_set)
+# my_set.discard(30)
+# print(my_set)
+# my_set.discard(30)
+# print(my_set)
+
+
+A={1,2,3,4,5,6}
+B={3,6,7,8}
+print(A.symmetric_difference(B))
+print(A)
+
 
 
 
