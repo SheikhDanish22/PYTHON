@@ -1,0 +1,68 @@
+#class_method in oops
+
+# class Book:
+#     price=100
+#     page=500
+#     def __init__(self,title,auther):
+#         self.title=title
+#         self.auther=auther
+
+#     @classmethod
+#     def upadate(cls,new_price,new_page):
+#         cls.price=new_price
+#         cls.page=new_page
+
+#     @classmethod
+#     def add_new(cls,auther):
+#         cls.auther=auther
+
+#     def show_data(self):
+#         print(self.title,self.auther,Book.price,Book.page)
+
+# obj=Book('python','danish')
+# obj.show_data()
+# Book.upadate(110,550)
+# obj.show_data()
+        
+
+
+
+
+
+
+#static method
+
+class Book:
+    price=100
+    page=500
+    def __init__(self,title,auther):
+        self.title=title
+        self.auther=auther
+
+    @classmethod
+    def upadate(cls,new_price,new_page):
+        cls.price=new_price
+        cls.page=new_page
+
+    @classmethod
+    def add_new(cls,auther):
+        cls.auther=auther
+
+    def show_data(self):
+        print(self.title,self.auther,Book.price,Book.page)
+
+    @staticmethod
+    def welcome():
+        print("Welcome")
+
+    @staticmethod
+    def ty():
+        print("Thanks")
+
+obj=Book('python','danish')
+obj.show_data()
+Book.upadate(110,550)
+obj.show_data()
+Book.welcome()
+Book.ty()
+        
