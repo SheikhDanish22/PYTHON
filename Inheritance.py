@@ -80,21 +80,93 @@
 
 #Multileval
 
-class GP:
-    def home(self):
-        print("GP")
+# class GP:
+#     def home(self):
+#         print("GP")
 
 
-class P(GP):
-    def Car(self):
-        print("P car")
+# class P(GP):
+#     def Car(self):
+#         print("P car")
 
 
-class C(P):
-    def new(self):
-        print("C")
+# class C(P):
+#     def new(self):
+#         print("C")
 
-obj=C()
-obj.new()
-obj.home()
-obj.Car()
+# obj=C()
+# obj.new()
+# obj.home()
+# obj.Car()
+
+
+
+#Hierarchical Inheritance
+# class P:
+#     def home(self):
+#         print("from P clss")
+
+# class C1(P):
+#     def home1(self):
+#         print("from C1 clss")
+
+
+# class C2(P):
+#     def home2(self):
+#         print("from C2 clss")
+
+# obj=C1()
+# obj.home()
+# obj=C2()
+# obj.home()
+
+
+
+#Same Method hai to super() li help se Perent ko call kar sakte hai
+
+# class P:
+#     def home(self):
+#         print("from P clss")
+
+# class C1(P):
+#     def home(self):
+#         #print("from C1 clss")
+#         super().home()
+
+# class C2(P):
+#     def home(self):
+#         #print("from C2 clss")
+#         super().home()
+
+# obj1=C1()
+# obj1.home()
+# obj2=C2()
+# obj2.home()
+
+
+
+#Hybrid Inheritance
+
+# class P:
+#     def home(self):
+#         print("P class")
+
+# class C1(P):
+#     def home(self):
+#         print("C1")
+
+# class C2(P):
+#     def home(P):
+#         print("C2")
+
+# class C3(C1,C2):
+#     def new(self):
+#         print("C3")
+
+# obj=C3()
+# obj.home()
+# print(C3.__mro__)
+
+
+
+
